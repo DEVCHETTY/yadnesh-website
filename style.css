@@ -1,0 +1,41 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+/* Body */
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #0047ab, #0a74da); /* Blue background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Center box */
+.container {
+  text-align: center;
+  padding: 40px 60px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Name */
+.name {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: red;
+  letter-spacing: 2px;
+}
+
+/* Tagline */
+.tagline {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #e0e0e0;
+}
